@@ -1,2 +1,2 @@
 # alx-interview
-Preparation for technical interviews by tackling real-world problems and 
+Preparation for technical interviews by tackling real-world problems and possible interview queries
