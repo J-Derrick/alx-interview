@@ -18,19 +18,3 @@ def rotate_2d_matrix(matrix):
             matrix[last][last - offset] = matrix[i][last]
             matrix[i][last] = top
             offset += 1
-
-# Some code I was working on , but decided to comment it out rather than
-# lose it
-
-# def rotate_2d_matrix(matrix):
-#
-# n = len(matrix)
-
-#     # Transpose the matrix (swap rows with columns)
-#     for i in range(n):
-#         for j in range(i, n):
-#             matrix[i][j], matrix[j][i] = matrix[j][i], matrix[i][j]
-
-#     # Reverse the rows to complete the rotation
-#     for i in range(n):
-#         matrix[i].reverse()i\
