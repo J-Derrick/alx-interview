@@ -54,7 +54,7 @@ def isWinner(x, nums):
     Assuming Maria always goes first and both players play optimally,
     determine who the winner of each game is.
     """
-    players = {'Maria': 0, 'Ben': 0}
+    players = {"Maria": 0, "Ben": 0}
     cluster = set()
     for elem in range(x):
         nums.sort()
@@ -66,13 +66,13 @@ def isWinner(x, nums):
         temp = findPrimes(cluster)
 
         if temp % 2 == 0:
-            players['Ben'] += 1
+            players["Ben"] += 1
         elif temp % 2 != 0:
-            players['Maria'] += 1
+            players["Maria"] += 1
 
-    if players['Maria'] > players['Ben']:
-        return 'Maria'
-    elif players['Maria'] < players['Ben']:
-        return 'Ben'
+    if players["Maria"] > players["Ben"]:
+        return "Maria"
+    elif players["Maria"] < players["Ben"]:
+        return "Ben"
     else:
         return None
