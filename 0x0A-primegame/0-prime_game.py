@@ -3,7 +3,6 @@
 Prime Game
 """
 
-
 def findMultiples(num, targets):
     """
     Finds multiples of a given number within a list
@@ -12,7 +11,6 @@ def findMultiples(num, targets):
         if i % num == 0:
             targets.remove(i)
     return targets
-
 
 def isPrime(i):
     """
@@ -24,7 +22,6 @@ def isPrime(i):
         if i % j == 0:
             return False
     return True
-
 
 def findPrimes(n):
     """
